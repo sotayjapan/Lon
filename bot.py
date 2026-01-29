@@ -167,7 +167,6 @@ async def call(c):
         await c.message.answer("Nhập ID user cần cấp VIP")
 
     if uid in ADMINS and c.data=="admin_spin":
-        global SPIN_ENABLE
         SPIN_ENABLE=not SPIN_ENABLE
         await c.message.answer("Đã đổi trạng thái quay")
 
