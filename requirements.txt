@@ -3,3 +3,4 @@ aiosqlite
 requests
 fastapi
 uvicorn
+openpyxl
